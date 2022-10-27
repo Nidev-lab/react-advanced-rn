@@ -11,6 +11,7 @@ const RNCard = ({ title, image, id, species, price, description }) => {
 
   const onGointTo = () => {
     dispatch(addProduct({title, image, id, species, price, description}))
+		// navigation.navigate('Cart')
 	};
 
   return (
